@@ -1,0 +1,77 @@
+@import "./reset.css";
+@import "./clock.css";
+@import "./name.css";
+@import "./background.css";
+@import "./todo.css";
+
+body {
+  font-family: "Lobster", "Nanum Pen Script", cursive;
+  background-color: #b0aeaf;
+  padding: 5px;
+}
+
+.div-wrap {
+  width: 100%;
+  height: 100vh;
+  font-weight: 800;
+  font-size: 30px;
+  background-color: #b0aeaf;
+  grid-gap: 5px;
+  color: #b0aeaf;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, ifr);
+}
+.welcome {
+  background-color: #151a29;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.toDo-Input {
+  background-color: #151a29;
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+}
+
+.reset-button {
+  font-family: "Lobster", cursive;
+  background-color: #151a29;
+  border: none;
+  font-weight: 800;
+  font-size: 30px;
+  color: #b0aeaf;
+  grid-row: 4 / 5;
+  grid-column: 1 / 2;
+}
+.reset-button:active {
+  background-color: #b0aeaf;
+  color: #151a29;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #151a29;
+  font-size: 20px;
+  grid-row: 4 / 5;
+  grid-column: 2 / 3;
+}
+.picture {
+  background-color: #151a29;
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+}
+.planning {
+  background-color: #151a29;
+  grid-column: 3 / 4;
+  grid-row: 3 / 5;
+}
+.finished {
+  background-color: #151a29;
+  grid-column: 4 / 5;
+  grid-row: 3 / 5;
+}

@@ -1,0 +1,17 @@
+.clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock_ymd {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.clock_week {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.clock_time {
+  font-size: 25px;
+}

@@ -1,0 +1,29 @@
+.name-form-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-input {
+  font-family: "Lobster", "Nanum Pen Script", cursive;
+  font-size: 30px;
+  background-color: #151a29;
+  border: none;
+  width: 210px;
+  border-bottom: solid 1px #b0aeaf;
+  color: #b0aeaf;
+}
+.name-input:placeholder {
+  color: #b0aeaf;
+}
+.greeting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.none {
+  display: none;
+}
