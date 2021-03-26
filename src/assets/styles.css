@@ -20,7 +20,7 @@ body {
   color: #b0aeaf;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, ifr);
+  grid-template-rows: repeat(4, 1fr);
 }
 .welcome {
   background-color: #151a29;
