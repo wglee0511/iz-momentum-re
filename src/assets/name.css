@@ -13,8 +13,8 @@
   border-bottom: solid 1px #b0aeaf;
   color: #b0aeaf;
 }
-.name-input:placeholder {
-  color: #b0aeaf;
+.name-input::placeholder {
+  color: #757575;
 }
 .greeting {
   display: flex;
