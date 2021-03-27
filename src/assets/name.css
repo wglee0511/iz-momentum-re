@@ -5,6 +5,7 @@
   align-items: center;
 }
 .name-input {
+  margin: 12px 0 0 0;
   font-family: "Lobster", "Nanum Pen Script", cursive;
   font-size: 30px;
   background-color: #151a29;
