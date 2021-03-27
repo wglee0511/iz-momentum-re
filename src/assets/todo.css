@@ -12,7 +12,7 @@
   font-size: 20px;
 }
 .todo-head {
-  margin-bottom: 15px;
+  margin: 10px 0 15px 10px;
 }
 .todo-button {
   font-family: "Lobster", cursive;
