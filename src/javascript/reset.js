@@ -44,6 +44,8 @@ const finishedReset = () => {
 };
 
 const handleReset = () => {
+  const confirmed = confirm("Are you sure you want to reset?");
+  if(!confirmed) return false;
   nameReset();
   planningReset();
   finishedReset();
